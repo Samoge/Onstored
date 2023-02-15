@@ -1,0 +1,44 @@
+:root {
+    --c1: #450d6b;
+    --c2: #340355;
+    --main-color: #450d6b;
+    --main-color-yellow: rgba(255, 145, 0, 1);
+    ;
+    --main-color-blue: rgba(60, 74, 230, 1);
+    ;
+    --main-color-back: rgba(229, 191, 246, 0.2);
+    --text-color: #777;
+    --gray-color: rgba(119, 119, 119, 0.2);
+    --light-text-color: rgba(119, 119, 119, 0.1);
+    --white-color: #fff;
+    --black-color: #000;
+    --gradient: linear-gradient(to right, rgba(155, 118, 149, 0.8), rgba(208, 159, 241, 0.3));
+    --main-gradient: linear-gradient(to right, rgba(248, 244, 248,5), rgba(92, 39, 128, 0.8));
+    --gray-gradient: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(226, 140, 248, 0.4));
+
+}
+
+/* animations */
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 #450d6b, 0 0 0 0 #450d6b;
+    }
+
+    80% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0), 0 0 0 40px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20 #450d6b, 0 0 0 40 #450d6b;
+    }
+}
+
+@keyframes bouncingbutton {
+ 0%{
+    transform: translateY(0);
+ } 
+ 
+ 100%{
+    transform: translateY(-10px);
+ }
+}
