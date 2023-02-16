@@ -22,3 +22,22 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {slides[i].style.display = "none";}
   slides[slideIndex-1].style.display = "block";
 }
+
+ScrollReveal({
+  reset: true,
+  duration: 2000,
+  distance: "40px",
+});
+
+ScrollReveal().reveal(".every", {
+  delay: 150,
+  origin: "bottom",
+});
+ScrollReveal().reveal(".everyfoot",{
+  delay: 200,
+  origin: "bottom",
+});
+ScrollReveal().reveal(".footer-ff",{
+  delay: 200,
+  origin: "bottom",
+});
