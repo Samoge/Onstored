@@ -1,3 +1,12 @@
+var hamburger = document.querySelector(".hamburgermenu");
+var showlinks = document.querySelector(".actionbuttons");
+// var backdrop = document.querySelector('.backdrop')
+
+function Addclass() {
+  hamburger.classList.toggle("show");
+  showlinks.classList.toggle("smoothmenushow");
+}
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -38,6 +47,6 @@ ScrollReveal().reveal(".everyfoot",{
   origin: "bottom",
 });
 ScrollReveal().reveal(".footer-ff",{
-  delay: 200,
+  delay: 1000,
   origin: "bottom",
 });

@@ -57,7 +57,13 @@ img {
 
 /* reusables ends here */
 /* header starts here */
+
+
 /* desktop starts here*/
+.mobileview{
+  display: none;
+}
+
 .desktop {
   transform: translateY(-58px);
   height: auto;
@@ -493,7 +499,7 @@ margin-top: 10px;
 }
 
 .ps {
-  width: 50%;
+  width: 60%;
   /* border: 2px solid orange; */
 }
 
@@ -543,7 +549,7 @@ margin-top: 10px;
 
 .appinfo p {
   font-size: 12px;
-  font-weight: 150;
+  font-weight: 100;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
@@ -560,7 +566,7 @@ margin-top: 10px;
 
 .pmm {
   /* transform: translateX(-40px); */
-  z-index: 10;
+  /* z-index: 10; */
   /* height: 80%; */
   width: 50%;
   /* border: 2px solid green; */
@@ -611,6 +617,10 @@ margin-top: 10px;
   align-items: flex-start;
   width: 100%;
   justify-content: space-between;
+}
+
+.logo2{
+  display: none;
 }
 
 .ff1 {
