@@ -111,14 +111,6 @@ img {
   color: var(--main-color-yellow);
 }
 
-.searchdownload {
-  border: 2px solid orange;
-  width: 400px;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .desktopitemlink {
   color: var(--white-color);
@@ -128,44 +120,49 @@ img {
   color: var(--main-color-yellow);
 }
 
-.search {
-  /* border: 1px solid white; */
-  border-radius: 5px;
-  width: 65%;
-  height: 100%;
-  padding: 5px;
+.searchdownload {
+  /* border: 2px solid orange; */
+  padding: 20px 0 10px 0;
+  width: 400px;
+  /* height: 90px; */
   display: flex;
-}
-.searchtext {
-  border-right: 2px solid var(--white-color);
-  width: 80%;
-  height: 100%;
-  display: flex;
-  padding: 0 0 0 14px;
-  /* justify-content: center; */
+  justify-content: space-between;
   /* align-items: center; */
 }
 
-.searchtext input {
-  width: 100%;
+.input-group{
+  width: 65%;
+  border: 2px solid white;
+  height: 42px;
+  /* width: 100%; */
   background: none;
-  border: none;
+  border-radius: 5px;
   color: white;
   font-size: 15px;
-  /* color: var(--white-color); */
+  display: flex;
+  align-items: center;
 }
-
-.searchtext input:focus {
-  border-color: none;
+.searchtext {
+  width: 80%;
+  height: 100%;
   border: none;
   background: none;
+  /* border: none; */
+  padding: 0 5px;
+}
+
+
+
+.searchtext input:focus {
+  border: 2px solid white;
+  background: none;
+  text-decoration: none;
 }
 
 .searchicon {
-  /* border: 2px solid yellow; */
+  border-left: 2px solid var(--white-color);
   width: 20%;
-  height: 100%;
-  color: var(--white-color);
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,14 +173,6 @@ img {
   cursor: pointer;
 }
 
-.download {
-  width: 32%;
-  height: 100%;
-  background: var(--main-color-blue);
-  border-radius: 5px;
-  border: none;
-  color: var(--white-color);
-}
 
 .download:hover {
   cursor: pointer;
@@ -383,14 +372,16 @@ img {
   display: none;
 }
 
-.imgts {
+.imgts-img {
   /* border: 2px solid white; */
   height: auto;
-  width: 60%;
+  width: 40%;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: center; */
   align-items: center;
+  padding: 10px;
 }
+
 
 .imgts-statement {
   /* border: 2px solid blue; */
@@ -398,7 +389,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgba(6, 9, 45, 0.74);
+  /* background: rgba(6, 9, 45, 0.74); */
   padding: 20px;
   border-radius: 5px;
 }
