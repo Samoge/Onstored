@@ -228,6 +228,17 @@ img {
   width: 100%;
   border-radius: 0px;
 }
+
+.heroimgmob{
+  display: none;
+}
+
+.heroimg2{
+  display: none;
+  width: 150px;
+  height: 150px;
+  right: 0;
+}
 /* hero section ends here */
 
 /* Resources section starts here */
