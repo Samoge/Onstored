@@ -15,7 +15,7 @@
     --gradient: linear-gradient(to right, rgba(155, 118, 149, 0.8), rgba(208, 159, 241, 0.3));
     --main-gradient: linear-gradient(to right, rgba(248, 244, 248,5), rgba(92, 39, 128, 0.8));
     --gray-gradient: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(226, 140, 248, 0.4));
-
+ --blues: linear-gradient(90deg, rgba(63, 130, 235, 0) -5.75%, #3F82EB 58.14%, rgba(63, 130, 235, 0) 100%);
 }
 
 /* animations */

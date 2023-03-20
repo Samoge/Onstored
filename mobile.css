@@ -384,6 +384,30 @@
   }
   /* performance ends here */
 
+  /* signupform starts here */
+
+  .inputs{
+    width: 100%;
+  }
+
+  .inputnames{
+    width: 95%;
+  }
+
+  .inputs button{
+    width: 95%;
+  }
+
+  .signupwith{
+    width: 70%;
+  }
+
+  .welcomeinputnames{
+    width: 95%;
+  }
+
+  /* signupform ends here */
+
   /* footer section starts here */
 
   .footer_final {
